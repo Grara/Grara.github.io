@@ -2,6 +2,8 @@
 title: "Spring"
 layout: archive
 permalink: /spring
+sidebar:
+  nav: "main"
 ---
 
 {% assign posts = site.categories.spring %}
