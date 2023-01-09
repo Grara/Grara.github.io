@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "1st-Test"
+title                    : "Grara's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Grara"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Grara"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "개어렵네 십탱."
+  bio              : "할 거 없어서 끄적이는 블로그"
   location         : "Seoul"
   email            :
   links:
