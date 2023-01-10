@@ -1,10 +1,9 @@
 ---
-title: "Spring"
+title: "Spring-Boot"
 layout: archive
-permalink: /spring
+permalink: /spring-boot
 author_profile: true
-sidebar:
-  nav: "main"
+sidebar_main: true
 ---
 
 {% assign posts = site.categories.spring %}
