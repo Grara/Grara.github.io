@@ -11,7 +11,6 @@
             📂 <span>전체 글 수</style> <span>{{sum}}</style> <span>개</style> 
       </li>
       <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">Spring</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -34,6 +33,17 @@
                 {% for category in site.categories %}
                     {% if category[0] == "spring-data-jpa" %}
                         <li><a href="/spring-data-jpa" class="">Spring-Data-JPA ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+      <li>
+        <span class="nav__sub-title">Language</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "java" %}
+                        <li><a href="/java" class="">Java ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
