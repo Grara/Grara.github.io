@@ -57,5 +57,15 @@
                 {% endfor %}
             </ul>
       </li>
+      <li>
+        <span class="nav__sub-title">Algorithm</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "backjoon" %}
+                        <li><a href="/backjoon" class="">BackJoon ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
   </ul>
 </nav>
